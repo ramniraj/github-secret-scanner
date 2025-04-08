@@ -1,0 +1,1018 @@
+└─# python3 github_secret_scanner.py
+Enter your GitHub Token: 
+Enter the target GitHub organization name: juice-shop
+Enter the target domain (e.g., example.com): https://github.com/juice-shop/juice-shop
+
+Scanning organization: juice-shop...
+
+
+=== Secret Scan Results ===
+
+Repo: juice-shop/juice-shop
+File: .well-known/csaf/provider-metadata.json
+Line: 14
+Type: Generic API Key
+Matched: ['19c01cb7157e4645e9e2c863062a85a8cbfbdcda']
+Risk Score for this secret: 5
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: .well-known/csaf/provider-metadata.json
+Line: 15
+Type: Generic API Key
+Matched: ['19c01cb7157e4645e9e2c863062a85a8cbfbdcda']
+Risk Score for this secret: 5
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: .well-known/csaf/provider-metadata.json
+Line: 18
+Type: Generic API Key
+Matched: ['2372B2B12AEA7AE3001BB3FBD08FB16E2029D870']
+Risk Score for this secret: 5
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: .well-known/csaf/provider-metadata.json
+Line: 22
+Type: Generic API Key
+Matched: ['91b7a09d34db0a5e662ea7546f4a7656807d4ff9']
+Risk Score for this secret: 5
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/botDefaultTrainingData.json
+Line: 225
+Type: Generic API Key
+Matched: ['b8a8ba1ecea1607e1713e31a3d9e5e19']
+Risk Score for this secret: 5
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ar_SA.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ar_SA.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ar_SA.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/az_AZ.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/az_AZ.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/az_AZ.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/bg_BG.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/bg_BG.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/bg_BG.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/bn_BD.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/bn_BD.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/bn_BD.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ca_ES.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ca_ES.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ca_ES.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/cs_CZ.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/cs_CZ.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/cs_CZ.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/da_DK.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/da_DK.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/da_DK.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/de_CH.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/de_CH.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/de_CH.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/de_DE.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/de_DE.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/de_DE.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/el_GR.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/el_GR.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/el_GR.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/en.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/en.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/en.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/es_ES.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/es_ES.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/es_ES.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/et_EE.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/et_EE.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/et_EE.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/fi_FI.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/fi_FI.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/fi_FI.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/fr_FR.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/fr_FR.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/fr_FR.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ga_IE.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ga_IE.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ga_IE.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/he_IL.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/he_IL.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/he_IL.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/hi_IN.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/hi_IN.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/hi_IN.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/hu_HU.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/hu_HU.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/hu_HU.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/id_ID.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/id_ID.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/id_ID.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/it_IT.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/it_IT.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/it_IT.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ja_JP.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ja_JP.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ja_JP.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ka_GE.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ka_GE.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ka_GE.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ko_KR.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ko_KR.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ko_KR.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/lv_LV.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/lv_LV.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/lv_LV.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/my_MM.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/my_MM.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/my_MM.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/nl_NL.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/nl_NL.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/nl_NL.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/no_NO.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/no_NO.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/no_NO.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/pl_PL.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/pl_PL.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/pl_PL.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/pt_BR.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/pt_BR.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/pt_BR.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/pt_PT.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/pt_PT.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/pt_PT.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ro_RO.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ro_RO.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ro_RO.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ru_RU.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ru_RU.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/ru_RU.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/si_LK.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/si_LK.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/si_LK.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/sv_SE.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/sv_SE.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/sv_SE.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/th_TH.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/th_TH.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/th_TH.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/tlh_AA.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/tlh_AA.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/tlh_AA.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/tr_TR.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/tr_TR.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/tr_TR.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/uk_UA.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/uk_UA.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/uk_UA.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/zh_CN.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/zh_CN.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/zh_CN.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/zh_HK.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/zh_HK.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/zh_HK.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/zh_TW.json
+Line: 111
+Type: Generic API Key
+Matched: ['IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm', 'IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN', '1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm']
+Risk Score for this secret: 20
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/zh_TW.json
+Line: 299
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: data/static/i18n/zh_TW.json
+Line: 301
+Type: Generic API Key
+Matched: ['1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF', '1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHF']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: frontend/src/assets/private/OrbitControls.js
+Line: 311
+Type: Generic API Key
+Matched: ['fde9f9917d6d8381f06bf22cdff766029d1761be']
+Risk Score for this secret: 5
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: frontend/src/assets/private/OrbitControls.js
+Line: 371
+Type: Generic API Key
+Matched: ['fde9f9917d6d8381f06bf22cdff766029d1761be']
+Risk Score for this secret: 5
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: frontend/src/assets/private/OrbitControls.js
+Line: 380
+Type: Generic API Key
+Matched: ['fde9f9917d6d8381f06bf22cdff766029d1761be']
+Risk Score for this secret: 5
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: frontend/src/assets/private/OrbitControls.js
+Line: 423
+Type: Generic API Key
+Matched: ['fde9f9917d6d8381f06bf22cdff766029d1761be']
+Risk Score for this secret: 5
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: frontend/src/assets/private/OrbitControls.js
+Line: 446
+Type: Generic API Key
+Matched: ['fde9f9917d6d8381f06bf22cdff766029d1761be']
+Risk Score for this secret: 5
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: frontend/src/assets/private/dat.gui.min.js
+Line: 38
+Type: Generic API Key
+Matched: ['rememberedObjectIndecesToControllers', 'rememberedObjectIndecesToControllers']
+Risk Score for this secret: 10
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: frontend/src/assets/private/dat.gui.min.js
+Line: 44
+Type: Generic API Key
+Matched: ['rememberedObjectIndecesToControllers']
+Risk Score for this secret: 5
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: frontend/src/assets/private/dat.gui.min.js
+Line: 46
+Type: Generic API Key
+Matched: ['rememberedObjectIndecesToControllers']
+Risk Score for this secret: 5
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: frontend/src/assets/private/dat.gui.min.js
+Line: 59
+Type: Generic API Key
+Matched: ['iVBORw0KGgoAAAANSUhEUgAAAAsAAAANCAYAAAB', '9ZQ7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlY', 'evwWoYoSYbACX2s7KxCxzcsezDh3evFoDEBYTEEqycggW', 'QekhhHJhPdQxbiAIguMBTQZrPD7108M6roWYDFQiIAAv6', 'f2LUAynwoIaNcz8XNx3Dl7MEJUDGQpx9gtQ8YCueB', 'D26OECAAQDadt7e46D42QAAAABJRU5ErkJggg', 'yH5BAEAAAIALAAAAAAFAAUAAAIIlGIWqMCbWAEAOw']
+Risk Score for this secret: 35
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: frontend/src/assets/private/three.js
+Line: 6341
+Type: Generic API Key
+Matched: ['0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghi']
+Risk Score for this secret: 5
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: frontend/src/assets/private/three.js
+Line: 17358
+Type: Generic API Key
+Matched: ['extremelysatisfactorytotalitarianism']
+Risk Score for this secret: 5
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: frontend/src/assets/private/three.js
+Line: 17404
+Type: Generic API Key
+Matched: ['extremelysatisfactorytotalitarianism']
+Risk Score for this secret: 5
+----------------------------------------
+Repo: juice-shop/juice-shop
+File: frontend/src/assets/private/three.js
+Line: 18100
+Type: Generic API Key
+Matched: ['directionalLightWeightingHalfBack']
+Risk Score for this secret: 5
+----------------------------------------
